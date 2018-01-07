@@ -1,0 +1,31 @@
+/* 
+    Created on : Jan 6, 2018, 12:31:36 PM
+    Author     : helfrich
+*/
+
+.slider {
+    border-left: thick solid #000000;
+    height: 332px;
+    position: absolute;
+    left: 120px;
+    top: 75px;    
+}
+
+.thumb {
+    cursor: pointer; 
+    position: absolute; 
+    left: -18px; 
+    top: 317px; 
+    width: 39px; 
+    height: 31px; 
+    background-image: url("thumb.png");
+}
+
+.value {
+    position: absolute;
+    left: 83px;
+    top: 430px; 
+    width: 80px;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
